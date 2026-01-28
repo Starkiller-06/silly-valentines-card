@@ -7,14 +7,13 @@ export default function MyApp() {
 
   const phrases = [
     "No",
-    "Are you sure?",
-    "Really sure?",
-    "Last chance!",
+    "sure?",
+    "Reallyyy sure?",
+    "como asi :(",
     "Surely not?",
-    "You might regret this!",
-    "Give it another thought!",
-    "Are you absolutely sure?",
-    "Would you reconsider?",
+    "ideay?",
+    "pipipi",
+    "think again",
     "Is that your final answer?",
   ];
 
