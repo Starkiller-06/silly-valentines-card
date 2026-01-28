@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=MonteCarlo&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Parisienne&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFEBF2;
+  text-align: center;
+}
+
+.title-txt{
+  font-size: 4.5rem;
+  color: #D6336C;
+  font-family: 'Imperial Script', cursive;
+  margin: 1rem 0;
+}
+
+.buttons {
+  display: flex;
+  gap: 2rem;
+  align-items: center; 
+  justify-content: center;
+}
+
+button {
+  min-height: 60px;
+  min-width: 120px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.yes {
+  background-color: #8DD188;
+  height: auto;
+  width: auto;
+}
+
+.yes:hover {
+  background-color: #7ab875;
+  transform: scale(1.05);
+}
+
+.no {
+  background-color: #E33434;
+}
+
+.no:hover {
+  background-color: #c42b2b;
+  transform: scale(0.95);
+}
+
+.img {
+  width: 250px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.letter {
+  font-family: "Noto Serif", serif;
+  width: 70%;
+  color: #A32C54;
+  margin-top: 0;
+}
