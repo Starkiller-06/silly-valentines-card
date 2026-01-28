@@ -40,7 +40,7 @@ export default function MyApp() {
           <br/><br/>
           Anyway, I hope you like this little gift. I’m looking forward to living more adventures with you and creating more memories together. I love you so much.
           <br/><br/>
-          With love, someone who loves you dearly,
+          With love,
           <br/><br/>
           – Ximena Ruiz.
         </p>
